@@ -17,8 +17,9 @@
     background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
     font-size: 22px;
     cursor: pointer;
+    transition: 0.5s;
 }
 .nav-connect:hover{
     transform:scale(1.05);
-    background: linear-gradient(267deg, hsl(29, 71%, 60%), hsl(287, 76%, 65%))
+    /*background: linear-gradient(267deg, hsl(29, 71%, 60%), hsl(287, 76%, 65%));*/
 }
