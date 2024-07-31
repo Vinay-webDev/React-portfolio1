@@ -10,3 +10,14 @@
     height: 250px;
     border-radius: 125px;
 }
+.hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 3em;
+}
+.hero h1 span {
+    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
