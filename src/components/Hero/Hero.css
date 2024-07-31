@@ -1,0 +1,12 @@
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.hero img {
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}

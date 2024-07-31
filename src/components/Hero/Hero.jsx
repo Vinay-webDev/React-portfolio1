@@ -1,6 +1,6 @@
 import React from 'react'
 import pfp from '../../assets/pfp.jpg';
-
+import './Hero.css';
 const Hero = () => {
   return (
     <div className="hero">
