@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 80px 100px;
 }
 .about-title{
     position: relative;
@@ -24,7 +24,7 @@
 }
 .about-sections{
     display: flex;
-    gap: 50px;
+    gap: 70px;
 }
 .about-sections img{
     width: 300px;
