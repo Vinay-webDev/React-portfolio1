@@ -22,8 +22,36 @@
     right: 0;
     z-index: -1;
 }
+.about-sections{
+    display: flex;
+    gap: 80px;
+}
 .about-sections img{
     width: 350px;
-    height: 350px;
+    height: 450px;
     border-radius: 10px;
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/***.about-skill***/
+.about-skill{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    transition: 0.3s;
 }
