@@ -7,19 +7,19 @@ import arrow from '../../assets/arrowright3.png';
 const favoriteTopics = [
                         { id:'1',
                           name:'Web Design',
-                          des:'The process of creating the visual layout...'
+                          des:'The process of creating the visual layout user...'
                         },
                         { id:'2',
                           name:'Web Development',
                           des:'The process of building and maintaining websites...'
                         },
                         { id:'3',
-                          name:'Data Structures and Algorithms',
+                          name:'DSA',
                           des:'Organized ways to store and manipulate data...'
                         },
                         { id:'4',
                           name:'Front-end',
-                          des:'The client-side part of web development...'
+                          des:'The client-side part of web development dealing...'
                         },
                         { id:'5',
                           name:'React.js',
