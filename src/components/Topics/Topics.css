@@ -1,9 +1,29 @@
+.topics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 80px 170px;
+}
+.topics-title{
+    position: relative;
+}
+.topics-title h1{
+    padding: 0px 30px;
+    font-size: 4em;
+}
 .topics-title img{
     width: 80px;
     height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
+/*
 .read-more img{
     width: 50px;
     height: 50px;
     filter: hue-rotate(180deg);
-}
+}*/
