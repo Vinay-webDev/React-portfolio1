@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/logonew2.png';
+import logo from '../../assets/chad.png';
 import './Navbar.css';
 const Navbar = () => {
   return (
@@ -12,7 +12,7 @@ const Navbar = () => {
             <li>Portfolio</li>
             <li>Contact</li>
         </ul>
-        <div className="nav-connect">Connect with me</div>
+        <div className="nav-connect">Connect</div>
     </div>
   );
 }

@@ -4,18 +4,23 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
+.navbar img {
+    width: 100px;
+    height: 100px;
+}
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    font-size: 1.3em;
+    gap: 70px;
     cursor: pointer;
 }
 .nav-connect{
     padding: 10px 20px;
     background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
     border-radius: 25px;
-    font-size: 1.25em;
+    font-size: 1.35em;
     cursor: pointer;
     transition: 0.5s;
 }
