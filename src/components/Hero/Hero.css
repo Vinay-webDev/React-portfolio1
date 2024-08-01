@@ -21,3 +21,39 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.hero p {
+    width: 50%;
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 40px;
+}
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+.hero-connect{
+    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1.5px solid white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.hero-connect:hover{
+    border: 1.5px solid hsl(310, 71%, 50%);
+    transform: scale(1.1);
+}
+.hero-resume{
+    padding: 10px 15px;
+    border: 1.5px solid white;
+    border-radius: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.hero-resume:hover{
+    border: 1.5px solid hsl(287, 76%, 51%);
+    transform: scale(1.1);
+}
