@@ -94,3 +94,7 @@
 .about-achivement p{
     font-size: 1.15em;
 }
+.about-achivement:hover{
+    transition: 0.5s;
+    transform: scale(1.15);
+}
