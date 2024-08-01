@@ -32,7 +32,6 @@
     align-items: center;
     gap: 35px;
     font-size: 1.15em;
-    font-weight: 600;
 }
 .hero-connect{
     background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
