@@ -27,7 +27,7 @@
     gap: 80px;
 }
 .about-sections img{
-    width: 350px;
+    width: 300px;
     height: 450px;
     border-radius: 10px;
 }
@@ -57,4 +57,31 @@
 }
 .about-skill p{
     min-width: 150px;
+    font-size: 1.15em;
+    font-weight: 500;
+}
+.about-skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    transition: 0.3s;
+}
+.about-skill hr:hover{
+    transform: scale(1.15);
+}
+.about-achivements{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.about-achivement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
 }

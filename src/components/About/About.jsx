@@ -19,11 +19,11 @@ const About = () => {
             <p>I'm Chad from India bangalore, I've been working for the past 10 years as a full-stack web developer. Throughout my career, I have had the privilage of collaberating with prestigious organizations, contributing to their success and growth😀👍</p>
           </div>
           <div className="about-skills">
-            <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"70%"}} /></div>
-            <div className="about-skill"><p>Javascript</p><hr style={{width:"80%"}} /></div>
-            <div className="about-skill"><p>React js</p><hr style={{width:"70%"}} /></div>
-            <div className="about-skill"><p>Nest js</p><hr style={{width:"50%"}} /></div>
-            <div className="about-skill"><p>Node js</p><hr style={{width:"60%"}} /></div>
+            <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"45%"}} /></div>
+            <div className="about-skill"><p>Javascript</p><hr style={{width:"55%"}} /></div>
+            <div className="about-skill"><p>React js</p><hr style={{width:"50%"}} /></div>
+            <div className="about-skill"><p>Nest js</p><hr style={{width:"45%"}} /></div>
+            <div className="about-skill"><p>Node js</p><hr style={{width:"50%"}} /></div>
             <div className="about-skill"><p>Express js</p><hr style={{width:"50%"}} /></div>
           </div>
         </div>
@@ -38,6 +38,7 @@ const About = () => {
           <h1>90+</h1>
           <p>PROJECTS COMPLETED!</p>
         </div>
+        <hr />
         <div className="about-achivement">
           <h1>15+</h1>
           <p>HAPPY CLIENTS</p>
