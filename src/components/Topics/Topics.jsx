@@ -1,7 +1,7 @@
 import React from 'react'
 import './Topics.css';
 import theme from '../../assets/theme2.png';
-import arrow from '../../assets/arrow.png';
+import arrow from '../../assets/arrowright3.png';
 
 
 const favoriteTopics = [
