@@ -11,7 +11,7 @@
 }
 .about-title h1{
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 5em;
     font-weight: 600;
 }
 .about-title img{
@@ -24,17 +24,17 @@
 }
 .about-sections{
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 .about-sections img{
     width: 300px;
-    height: 450px;
+    height: 400px;
     border-radius: 10px;
 }
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 40px;
 }
 .about-para{
     display: flex;

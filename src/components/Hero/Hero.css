@@ -5,15 +5,15 @@
     gap: 35px;
 }
 .hero img {
-    margin-top: 50px;
-    width: 250px;
-    height: 250px;
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
     border-radius: 125px;
 }
 .hero h1 {
     text-align: center;
     width: 70%;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 .hero h1 span {
     background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
