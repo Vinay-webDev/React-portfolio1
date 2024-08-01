@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar/Navbar.jsx';
 import Hero from './components/Hero/Hero.jsx';
 import About from './components/About/About.jsx';
-import Projects from './components/Projects/Projects.jsx';
+import Topics from './components/Topics/Topics.jsx';
 
 
 
@@ -14,7 +14,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
-      <Projects/>
+      <Topics/>
     </div>
   );
 }
