@@ -45,14 +45,12 @@ const Projects = () => {
   return (
     <div className="projects">
         <div className="projects-title">
-            <h1>some fun projects</h1>
+            <h1>Some Fun Projects</h1>
             <img src={theme} alt="theme"/>
         </div>
-        <div className="projects-container-main">
+        <div className="projects-container">
             {projectsList.map((project, id) => {
-                return <div className="img-container" >
-                    <img key={project.id} src={project.img} alt={project.name}/>
-                </div>
+                return <img key={project.id} src={project.img} alt={project.name}/> 
             })}
         </div>
         <div className="show-more">
