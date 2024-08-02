@@ -1,4 +1,72 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 100px;
+}
+.contact-title{
+    position: relative;
+}
+.contact-title h1{
+    font-size: 4.5em;
+    padding: 0px 30px;
+}
+
 .contact-title img{
+    width: 110px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.contact-section{
+    display: flex;
+    gap: 150px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact-left h1{
+    font-size: 2.5em;
+    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-left p{
+    font-size: 1.5em;
+    color: hsl(0, 0%, 85%);
+    max-width: 550px;
+    line-height: 35px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: hsl(0, 0%, 85%);
+    font-size: 1.25em;
+}
+.contact-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact-detail img{
     width: 50px;
-    height: 50px;
+    height: auto;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.contact-right label{
+    font-size: 1.25em;
+    color:hsl(0, 0%, 85%);
 }
