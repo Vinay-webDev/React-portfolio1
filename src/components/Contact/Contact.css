@@ -95,3 +95,18 @@
     background:hsl(240, 9%, 22%);
     color:hsl(0, 0%, 63%);
 }
+.contact-submit{
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    font-size: 1.25em;
+    font-family: "Outfit";
+    padding: 5px 15px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.contact-submit:hover{
+    transform: scale(1.1);
+}
