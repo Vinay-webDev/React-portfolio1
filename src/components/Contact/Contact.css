@@ -70,3 +70,14 @@
     font-size: 1.25em;
     color:hsl(0, 0%, 85%);
 }
+.contact-right input{
+    font-family: "Outfit";
+    font-size: 1.25em;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    padding-left: 20px;
+    background: hsl(240, 9%, 22%);
+    color: hsl(0, 0%, 63%);
+}
