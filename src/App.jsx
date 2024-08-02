@@ -3,7 +3,7 @@ import Hero from './components/Hero/Hero.jsx';
 import About from './components/About/About.jsx';
 import Topics from './components/Topics/Topics.jsx';
 import Projects from './components/Projects/Projects.jsx';
-
+import Contact from './components/Contact/Contact.jsx';
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
       <About/>
       <Topics/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }
