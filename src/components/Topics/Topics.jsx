@@ -50,15 +50,14 @@ const Topics = () => {
       <div className="topics-container">
         {favoriteTopics.map((topic, id)=>{
           return <div key={id} className="topics-format">
-            <h3>{topic.id}</h3>
-            <h2>{topic.name}</h2>
-            <p>{topic.des}</p>
-            <div className="read-more">
-              <p>Read more</p>
-              <img src={arrow} alt="right-arrow" />
-            </div>
-            
-          </div>
+                  <h3>{topic.id}</h3>
+                  <h2>{topic.name}</h2>
+                  <p>{topic.des}</p>
+                  <div className="read-more">
+                    <p>Read more</p>
+                    <img src={arrow} alt="right-arrow" />
+                  </div>
+                </div>
         })}
       </div>
     </div>
