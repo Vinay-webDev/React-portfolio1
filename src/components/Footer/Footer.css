@@ -1,4 +1,59 @@
-.footer-top-left img{
-    width: 80px;
-    height: 80px;
+.footer{
+    margin: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-left img{
+    width: 100px;
+    height: 100px;
+}
+.footer-top-left p{
+    font-size: 1.5em;
+    max-width: 400px;
+}
+.footer-top-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-mail-input{
+    display: flex;
+    gap: 15px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: hsl(240, 8%, 21%);
+    padding-right: 80px;
+}
+.footer-mail-input input{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: hsl(0, 0%, 63%);
+    font-family: "Outfit";
+    font-size: 1.1em;
+}
+.footer-subscribe{
+    font-size: 1.25em;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    transition: 0.4s;
+    cursor: pointer;
+}
+.footer-subscribe:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
