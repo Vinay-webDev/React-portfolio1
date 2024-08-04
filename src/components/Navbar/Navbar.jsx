@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import logo from '../../assets/chad.png';
 import './Navbar.css';
 import underline from '../../assets/underline1.png';
-
+import menubar from '../../assets/menu/bar1.png';
+import close from '../../assets/menu/close.png';
 
 
 const Navbar = () => {
@@ -16,7 +17,9 @@ const Navbar = () => {
   return (
     <div className="navbar" >
         <img src={logo} alt="portfolio-logo"/>
+        <img src={menubar} alt="menu-bar" className="nav-mob-open"/>
         <ul className="nav-menu">
+            <img src={close} alt="close" className="nav-mob-close"/>
             <li><AnchorLink className="anchor-link" href="#home"  ><p onClick={() => handleClick("home")}>Home</p>{menu==="home"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
             <li><AnchorLink className="anchor-link" href="#about" offset={50} ><p onClick={() => handleClick("about")}>About</p>{menu==="about"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
             <li><AnchorLink className="anchor-link" href="#topics" offset={50} ><p onClick={() => handleClick("topics")}>Topics</p>{menu==="topics"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
