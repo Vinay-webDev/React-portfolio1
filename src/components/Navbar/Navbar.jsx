@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const [menu, setMenu] = useState('');
 
-  function handleClick (props) {
+  const handleClick = (props) => {
     setMenu(props);
   }
   return (

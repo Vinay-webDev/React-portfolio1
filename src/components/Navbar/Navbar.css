@@ -16,11 +16,6 @@
     gap: 70px;
     cursor: pointer;
 }
-.nav-menu img{
-    width: 40px;
-    height: 15px;
-    margin-top: 0px 0px;
-}
 .nav-connect{
     padding: 10px 20px;
     background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
@@ -32,9 +27,27 @@
 .nav-connect:hover{
     transform: scale(1.15);
 }
-
-
-
+/*=============================================*/
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-menu img{
+    display: flex;
+    width: 40px;
+    height: 15px;
+    margin-top:auto;
+}
 
 
 
