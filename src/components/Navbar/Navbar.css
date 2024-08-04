@@ -48,7 +48,10 @@
     height: 15px;
     margin-top:auto;
 }
-
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
 
 
 

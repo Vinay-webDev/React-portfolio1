@@ -42,7 +42,7 @@ const favoriteTopics = [
 
 const Topics = () => {
   return (
-    <div className="topics">
+    <div id="topics" className="topics">
       <div className="topics-title">
         <h1>My favorite topics</h1>
         <img src={theme} alt="theme" />

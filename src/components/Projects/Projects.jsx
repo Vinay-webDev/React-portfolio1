@@ -43,7 +43,7 @@ const projectsList = [
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
         <div className="projects-title">
             <h1>Some Fun Projects</h1>
             <img src={theme} alt="theme"/>

@@ -3,7 +3,7 @@ import pfp from '../../assets/pfp.jpg';
 import './Hero.css';
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
         <img src={pfp} alt="profile-picture" />
         <h1><span>I'm Chad,</span>full-stack developer based in India</h1>
         <p>I'm a full-stack developer from India, bangalore with 10 years of work experience</p>

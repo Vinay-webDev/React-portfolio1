@@ -16,7 +16,7 @@ const Contact = () => {
             <h1>Contact me</h1>
             <img src={theme} alt="theme"/>
         </div>
-        <div className="contact-section">
+        <div id="contact" className="contact-section">
             <div className="contact-left">
                 <h1>Let's talk</h1>
                 <p>I'm currently available to take on new projects, so feel free to contact me</p>
