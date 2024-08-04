@@ -7,18 +7,21 @@ import underline from '../../assets/underline1.png';
 
 const Navbar = () => {
 
-  const [menu, setMenu] = useState("Home");
+  const [menu, setMenu] = useState('');
 
+  const handleClick = (props) => {
+    setMenu(props);
+  }
   return (
     <div className="navbar" >
         <img src={logo} alt="portfolio-logo"/>
         <ul className="nav-menu">
-            <li><p>Home</p></li>
-            <li><p>About</p></li>
-            <li><p>Topics</p></li>
+            <li><p onClick={() => handleClick("home")}>Home</p>{menu==="home"?<img src={underline} alt="underline"/>:<></>}</li>
+            <li><p onClick={() => handleClick("about")}>About</p>{menu==="about"?<img src={underline} alt="underline"/>:<></>}</li>
+            <li><p onClick={() => handleClick("topics")}>Topics</p>{menu==="topics"?<img src={underline} alt="underline"/>:<></>}</li>
             {/*<li>Portfolio</li>*/}
-            <li><p>Projects</p></li>
-            <li><p>Contact</p></li>
+            <li><p onClick={() => handleClick("projects")}>Projects</p>{menu==="projects"?<img src={underline} alt="underline"/>:<></>}</li>
+            <li><p onClick={() => handleClick("contact")}>Contact</p>{menu==="contact"?<img src={underline} alt="underline"/>:<></>}</li>
         </ul>
         <div className="nav-connect">Connect</div>
     </div>
