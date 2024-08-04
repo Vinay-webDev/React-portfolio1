@@ -4,7 +4,7 @@
     justify-content: space-between;
     margin: 7px 100px;
 }
-.navbar img {
+.navbar-img {
     width: 100px;
     height: 100px;
 }
@@ -42,16 +42,18 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.nav-menu img{
-    display: flex;
-    width: 40px;
-    height: 15px;
-    margin-top:auto;
-}
+
 .anchor-link{
     text-decoration: none;
     color: white;
 }
+/*
+.nav-menu img{
+    display: flex;
+    width: 40px;
+    height: 15px;
+}
+*/
 /*==============mobile responsive styling====================*/
 .nav-mob-close{
     display:none;
