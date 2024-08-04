@@ -31,6 +31,7 @@ const Contact = () => {
     
         if (res.success) {
           console.log("Success", res);
+          alert(res.message);
         }
     }
   return (
@@ -48,7 +49,7 @@ const Contact = () => {
                         <img src={mail} alt="mail"/><p>chad.dev.user@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={phone} alt="mail"/><p>+91 7777777777</p>
+                        <img src={phone} alt="mail"/><p>+91 77XXXXXXXX</p>
                     </div>
                     <div className="contact-detail">
                         <img src={location} alt="mail"/><p>Bangalore, India</p>

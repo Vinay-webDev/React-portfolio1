@@ -73,6 +73,7 @@
 .contact-right input{
     font-family: "Outfit";
     font-size: 1.25em;
+    outline: none;
     border: none;
     border-radius: 5px;
     width: 500px;
@@ -84,6 +85,7 @@
 .contact-right textarea{
     font-family: "Outfit";
     font-size: 1.25em;
+    outline: none;
     border: none;
     border-radius: 5px;
     width: 100%;
