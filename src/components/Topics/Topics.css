@@ -71,7 +71,42 @@
     background-image: linear-gradient(45deg, hsl(322, 100%, 19%), hsl(24, 100%, 30%));
     transform: scale(1.1);
 }
-
+/*============mobile responsive styling================*/
+@media(max-width: 768px){
+    .topics{
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+    }
+    .topics-title h1{
+        padding: 0px;
+        font-size: 50px;
+    }
+    .topics-title img{
+        width: 130px;
+        margin-right: -20px;
+    }
+    .topics-format{
+        gap: 20px;
+        padding: 32px;
+        width: 200px;
+    }
+    .topics-format h2{
+        font-size: 28px;
+    }
+    .topics-format p{
+        font-size: 18px;
+        line-height: 25px;
+        max-width: 300px;
+    }
+    .read-more img{
+        width: 20px;
+    }
+    .topics-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
 
 
 
