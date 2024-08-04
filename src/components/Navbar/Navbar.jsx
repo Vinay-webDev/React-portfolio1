@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react';
 import logo from '../../assets/chad.png';
 import './Navbar.css';
+import underline from '../../assets/underline1.png';
+
+
+
 const Navbar = () => {
+
+  const [menu, setMenu] = useState("Home");
+
   return (
     <div className="navbar" >
         <img src={logo} alt="portfolio-logo"/>
