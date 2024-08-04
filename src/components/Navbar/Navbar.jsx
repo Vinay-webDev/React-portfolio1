@@ -24,7 +24,7 @@ const Navbar = () => {
             <li><AnchorLink className="anchor-link" href="#projects" offset={50} ><p onClick={() => handleClick("projects")}>Projects</p>{menu==="projects"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
             <li><AnchorLink className="anchor-link" href="#contact" offset={50} ><p onClick={() => handleClick("contact")}>Contact</p>{menu==="contact"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
         </ul>
-        <div className="nav-connect">Connect</div>
+        <div className="nav-connect"><AnchorLink className="anchor-link" href="#contact" offset={50}>Connect</AnchorLink></div>
     </div>
   );
 }
