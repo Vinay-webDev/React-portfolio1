@@ -24,12 +24,13 @@ const Footer = () => {
         <hr />
         <div className="footer-bottom">
             <p className="footer-bottom-left">&copy; 2024 Chad. All rights reserved.</p>
+            <div className="footer-bottom-right">
+                <p>Terms of Services</p>
+                <p>Privacy Policy</p>
+                <p>Connect</p>
+            </div>
         </div>
-        <div className="footer-bottom-right">
-            <p>Terms of Services</p>
-            <p>Privacy Policy</p>
-            <p>Connect</p>
-        </div>
+        
     </div>
   );
 }
