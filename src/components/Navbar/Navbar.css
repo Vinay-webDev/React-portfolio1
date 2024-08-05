@@ -55,6 +55,9 @@
 }
 */
 /*==============mobile responsive styling====================*/
+.nav-mob-open{
+    display: none;
+}
 .nav-mob-close{
     display:none;
 }
