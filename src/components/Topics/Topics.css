@@ -72,7 +72,7 @@
     transform: scale(1.1);
 }
 /*============mobile responsive styling================*/
-@media(max-width: 768px){
+@media(max-width: 480px){
     .topics{
         align-items: start;
         gap: 70px;

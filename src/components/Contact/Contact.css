@@ -113,7 +113,7 @@
     transform: scale(1.1);
 }
 /*================mobile responsive styling===================*/
-@media(max-width: 768px){
+@media(max-width: 480px){
     .contact{
         gap: 50px;
         margin: 50px 70px;
