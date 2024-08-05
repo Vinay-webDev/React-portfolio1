@@ -59,7 +59,20 @@
     font-size: 1em;
     margin-bottom: 80px;
 }
-
+/*=================mobile responsive styling============*/
+@media(max-width: 768px){
+    .footer{
+        margin: 50px 70px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 
 
 
