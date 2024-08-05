@@ -45,7 +45,7 @@
     border: 2px solid white;
     border-radius: 50px;
     padding: 5px 15px;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 80px;
     transition: 0.4s;
     cursor: pointer;
@@ -54,10 +54,12 @@
     border: 2px solid #ff00ff;
     transform: scale(1.1);
 }
+/*
 .show-more img{
     width: 35px;
     height: 35px;
 }
+*/
 /*======================mobile resposive styling============*/
 @media(max-width: 768px){
     .projects{
@@ -83,8 +85,8 @@
         height: 270px;
     }
     .show-more{
-        padding: 20px 40px;
-        font-size: 18px;
+        padding: 0px 15px;
+        font-size: 30px;
         margin: 50px auto;
         cursor: pointer;
     }
