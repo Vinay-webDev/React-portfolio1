@@ -61,7 +61,7 @@
 }
 */
 /*======================mobile resposive styling============*/
-@media(max-width: 480px){
+@media(max-width: 768px){
     .projects{
         gap: 50px;
         margin: 50px 70px;
