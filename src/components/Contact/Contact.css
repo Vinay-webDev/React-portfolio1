@@ -165,6 +165,7 @@
         gap: 50px;
         margin: 100px 60px;
         align-items: start;
+        margin-bottom: 0px;
     }
     .contact-title h1{
         padding: 0px;
@@ -206,6 +207,7 @@
     .contact-right textarea{
         width: 85%;
         font-size: 15px;
+        resize: none;
     }
     .contact-submit{
         font-size: 15px;
