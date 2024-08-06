@@ -159,3 +159,56 @@
         padding: 10px 20px;
     }
 }
+/*==============mobile responsive 480px===============*/
+@media(max-width: 480px){
+    .contact{
+        gap: 50px;
+        margin: 100px 60px;
+        align-items: start;
+    }
+    .contact-title h1{
+        padding: 0px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .contact-title img{
+        width: 100px;
+        height: 50px;
+        margin-right: -20px;
+    }
+    .contact-section{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .contact-left h1{
+        font-size: 45px;
+    }
+    .contact-left p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contact-detail{
+        gap: 20px;
+    }
+    .contact-detail img{
+        width: 25px;
+    }
+    .contact-right{
+        gap: 10px;
+    }
+    .contact-right label{
+        font-size: 15px;
+    }
+    .contact-right input{
+        width: 80%;
+        font-size: 15px;
+    }
+    .contact-right textarea{
+        width: 85%;
+        font-size: 15px;
+    }
+    .contact-submit{
+        font-size: 15px;
+        padding: 8px 18px;
+    }
+}
