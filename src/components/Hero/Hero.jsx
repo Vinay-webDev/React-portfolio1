@@ -6,6 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 const Hero = () => {
+  
   return (
     <div id="home" className="hero">
         <img src={pfp} alt="profile-picture" />
