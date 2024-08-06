@@ -157,12 +157,12 @@
         align-items: start;
     }
     .about-title h1{
-        font-size: 50px;
+        font-size: 40px;
         padding: 0;
     }
     .about-title img{
-        height: 60px;
-        width: 100px;
+        height: 40px;
+        width: 80px;
         right: -20px;
     }
     .about-sections{

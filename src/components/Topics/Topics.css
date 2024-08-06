@@ -107,7 +107,47 @@
         gap: 30px;
     }
 }
-
+/*===============mobile responsive 480px======================*/
+@media(max-width: 480px){
+    .topics{
+        align-items: start;
+        gap: 50px;
+        margin: 30px 60px;
+    }
+    .topics-title h1{
+        padding: 0px;
+        font-size: 40px;
+    }
+    .topics-title img{
+        width: 100px;
+        height: 50px;
+        margin-right: -20px;
+    }
+    .topics-format{
+        gap: 5px;
+        padding: 15px;
+        width: 125px;
+    }
+    .topics-format h2{
+        font-size: 20px;
+    }
+    .topics-format h3{
+        font-size: 25px;
+    }
+    .topics-format p{
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 400px;
+    }
+    .read-more img{
+        margin-top: 2px;
+        width: 18px;
+    }
+    .topics-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
 
 
 

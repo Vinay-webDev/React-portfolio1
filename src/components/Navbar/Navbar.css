@@ -113,7 +113,7 @@
     .nav-mob-close{
         display: block;
         position: relative;
-        left: 250px;
+        left: 170px;
         width: 50px;
         height: 50px;
     }
@@ -124,15 +124,15 @@
         top: 0px;
         gap: 30px;
         background-color: hsl(0, 0%, 0%);
-        width: 300px;
+        width: 220px;
         height: 100%;
-        z-index: 2;
+        z-index: 5;
         transition: right 0.5s;
         right: -350px;
     }
     .nav-menu li{
         font-size: 30px;
-        padding-left: 80px;
+        padding-left: 45px;
         flex-direction: row;
         gap: 30px;
     }
