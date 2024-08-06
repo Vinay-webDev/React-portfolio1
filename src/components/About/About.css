@@ -174,15 +174,17 @@
     .about-para{
         font-size: 20px;
         line-height: 20px;
-        text-justify:distribute-all-lines;
-        -ms-text-justify:distribute;
+        text-align: justify;
+        hyphens:auto;
+        word-spacing: -0.05em;
+        /*letter-spacing: 0.05em;*/
     }
     .about-skill{
-        gap: 20px;
+        gap: 0px;
         align-items: center;
     }
     .about-skill p{
-        font-size: 20px;
+        font-size: 18px;
     }
     .about-skill hr{
         height: 6px;
