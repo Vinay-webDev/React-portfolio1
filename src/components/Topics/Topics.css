@@ -20,11 +20,10 @@ button === 90deg, #00c6ff, #0072ff
     font-size: 4em;
 }
 .topics-title img{
-    width: 80px;
-    height: 60px;
+    width: 150px;
     position: absolute;
-    bottom: 0;
     right: 0;
+    top: 0;
     z-index: -1;
 }
 .topics-format{

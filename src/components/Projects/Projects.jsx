@@ -6,7 +6,7 @@ import rock from '../../assets/projects/rock2.png';
 import calculator from '../../assets/projects/calc2.png';
 import pythagarus from '../../assets/projects/pytha2.png';
 import stupidapp from '../../assets/projects/stupidapp1.png';
-import theme from '../../assets/theme2.png';
+import theme from '../../assets/new/textund.png';
 import arrow from '../../assets/arrowright3.png';
 
 

@@ -19,11 +19,10 @@ button === 90deg, #00c6ff, #0072ff
     font-size: 4em;
 }
 .projects-title img{
-    width: 100px;
-    height: 70px;
+    width: 150px;
     position: absolute;
-    bottom: 0;
     right: 0;
+    top: 0;
     z-index: -1;
 }
 .projects-container{

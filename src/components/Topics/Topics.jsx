@@ -1,6 +1,6 @@
 import React from 'react'
 import './Topics.css';
-import theme from '../../assets/theme2.png';
+import theme from '../../assets/new/textund.png';
 import arrow from '../../assets/arrowright3.png';
 
 

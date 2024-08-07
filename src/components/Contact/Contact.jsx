@@ -1,9 +1,9 @@
 import React from 'react'
 import './Contact.css';
-import theme from '../../assets/theme2.png';
-import phone from '../../assets/phone2.png';
-import location from '../../assets/location.png';
-import mail from '../../assets/mail2.png';
+import theme from '../../assets/new/textund.png';
+import phone from '../../assets/new/callwhite.png';
+import location from '../../assets/new/locationonwhite.png';
+import mail from '../../assets/new/mailwhite.png';
 
 
 
