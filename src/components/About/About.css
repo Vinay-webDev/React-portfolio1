@@ -14,6 +14,7 @@ button === 90deg, #00c6ff, #0072ff
 }
 .about-title{
     position: relative;
+    text-align: center;
 }
 .about-title h1{
     padding: 0px 30px;
@@ -21,7 +22,7 @@ button === 90deg, #00c6ff, #0072ff
     font-weight: 600;
 }
 .about-title img{
-    width: 250px;
+    width: 170px;
     height: auto;
     position:absolute;
     right: 0;
