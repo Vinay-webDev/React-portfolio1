@@ -21,11 +21,11 @@ button === 90deg, #00c6ff, #0072ff
     font-weight: 600;
 }
 .about-title img{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    bottom: 0;
+    width: 250px;
+    height: auto;
+    position:absolute;
     right: 0;
+    top: 0;
     z-index: -1;
 }
 .about-sections{

@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css';
-import theme from '../../assets/theme2.png';
+import theme from '../../assets/new/textund.png';
 import pfp from '../../assets/pfp.jpg';
 
 const About = () => {
