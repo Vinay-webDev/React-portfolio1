@@ -56,13 +56,15 @@ const Projects = () => {
         </div>
         <div className="projects-container">
             {projectsList.map((project, id) => {
-                return <a href={project.target}><img key={project.id} src={project.img} alt={project.name}/></a> 
+                return <a href={project.target} ><img key={project.id} src={project.img} alt={project.name}/></a> 
             })}
         </div>
-        <div className="show-more">
-            <p>Show more</p>
-            <img src={arrow} alt="right-arrow"/>
-        </div>
+        <a href="https://github.com/ninjaprogrammer2999">
+          <div className="show-more">
+              <p>Show more</p>
+              <img src={arrow} alt="right-arrow"/>
+          </div>
+        </a>
     </div>
   );
 }

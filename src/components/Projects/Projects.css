@@ -56,10 +56,15 @@ a{
     margin-bottom: 80px;
     transition: 0.4s;
     cursor: pointer;
+    text-decoration: none;
 }
 .show-more:hover{
     border: 2px solid #0072ff;
     transform: scale(1.1);
+}
+.show-more p{
+    text-decoration: none;
+    color: white;
 }
 /*
 .show-more img{
