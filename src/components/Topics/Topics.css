@@ -49,6 +49,8 @@ a{
 }
 .topics-format h3{
     font-size: 2em;
+    color: white;
+    text-decoration: none;
 }
 .topics-format h2{
     font-size: 1.75em;
