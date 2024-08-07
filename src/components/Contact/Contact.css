@@ -1,3 +1,10 @@
+/* 
+text === 135deg, #00c9ff 0%, #92fe9d 100%
+button === 90deg, #00c6ff, #0072ff 
+*/
+
+
+
 .contact{
     display: flex;
     flex-direction: column;
@@ -33,7 +40,7 @@
 }
 .contact-left h1{
     font-size: 2.5em;
-    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -71,7 +78,7 @@
     color:hsl(0, 0%, 85%);
 }
 .contact-right input{
-    font-family: "Outfit";
+    font-family: "Poppins";
     font-size: 1.25em;
     outline: none;
     border: none;
@@ -83,7 +90,7 @@
     color: hsl(0, 0%, 63%);
 }
 .contact-right textarea{
-    font-family: "Outfit";
+    font-family: "Poppins";
     font-size: 1.25em;
     outline: none;
     border: none;
@@ -101,9 +108,9 @@
     border: none;
     color: white;
     border-radius: 50px;
-    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
     font-size: 1.25em;
-    font-family: "Outfit";
+    font-family: "Poppins";
     padding: 5px 15px;
     margin-bottom: 50px;
     cursor: pointer;

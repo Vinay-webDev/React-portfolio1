@@ -1,3 +1,8 @@
+/* 
+text === 135deg, #00c9ff 0%, #92fe9d 100%
+button === 90deg, #00c6ff, #0072ff 
+*/
+
 .projects{
     display: flex;
     flex-direction: column;
@@ -36,7 +41,7 @@
     cursor:pointer;
 }
 .projects-container img:hover{
-    border:2px solid #ff00ff;
+    border:2px solid #0072ff;
     transform: scale(1.1);
 }
 .show-more{
@@ -51,7 +56,7 @@
     cursor: pointer;
 }
 .show-more:hover{
-    border: 2px solid #ff00ff;
+    border: 2px solid #0072ff;
     transform: scale(1.1);
 }
 /*

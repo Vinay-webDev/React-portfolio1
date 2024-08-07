@@ -1,3 +1,9 @@
+/* 
+text === 135deg, #00c9ff 0%, #92fe9d 100%
+button === 90deg, #00c6ff, #0072ff 
+*/
+
+
 .topics{
     display: flex;
     flex-direction: column;
@@ -44,17 +50,22 @@
 }
 .topics-format h2{
     font-size: 1.75em;
-    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .topics-format p{
-    color: #d4d4d4;
+    color: white;
     font-size: 1.15em;
     line-height: 30px;
     max-width: 300px;
 }
+/*
+.topics-format p:hover{
+    color: white;
+}
+*/
 .read-more{
     display: flex;
     align-items: center;
@@ -67,8 +78,8 @@
     height: 25px;
 }
 .topics-format:hover{
-    border: 2px solid #ff00ff;
-    background-image: linear-gradient(45deg, hsl(322, 100%, 19%), hsl(24, 100%, 30%));
+    border: 2px solid #0072ff ;
+    background-image: linear-gradient(90deg, #00c6ff, #0072ff);
     transform: scale(1.1);
 }
 /*============mobile responsive styling================*/

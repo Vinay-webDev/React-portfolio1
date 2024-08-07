@@ -1,3 +1,9 @@
+/* 
+text === 135deg, #00c9ff 0%, #92fe9d 100%
+button === 90deg, #00c6ff, #0072ff 
+*/
+
+
 .about{
     display: flex;
     flex-direction: column;
@@ -66,7 +72,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
     transition: 0.3s;
 }
 .about-skill:hover{
@@ -87,7 +93,7 @@
 }
 .about-achivement h1{
     font-size: 3.5em;
-    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

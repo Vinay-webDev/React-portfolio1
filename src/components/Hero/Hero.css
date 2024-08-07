@@ -1,3 +1,12 @@
+/* some gradients ====>>>>  90deg, #00c6ff, #0072ff
+                            135deg, #9d50bb 0%, #6e48aa 100% 
+                            135deg, #43e97b 0%, #38f9d7 100%
+                            135deg, #00c9ff 0%, #92fe9d 100%
+
+text === 135deg, #00c9ff 0%, #92fe9d 100%
+button === 90deg, #00c6ff, #0072ff
+*/
+
 .hero {
     display: flex;
     align-items: center;
@@ -16,7 +25,7 @@
     font-size: 2.5em;
 }
 .hero h1 span {
-    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -34,7 +43,7 @@
     font-size: 1.25em;
 }
 .hero-connect{
-    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
     padding: 10px 15px;
     border-radius: 25px;
     border: 1.5px solid white;
@@ -42,7 +51,7 @@
     cursor: pointer;
 }
 .hero-connect:hover{
-    border: 1.5px solid hsl(310, 71%, 50%);
+    border: 1.5px solid  #0072ff;
     transform: scale(1.1);
 }
 .hero-resume{
@@ -53,7 +62,7 @@
     cursor: pointer;
 }
 .hero-resume:hover{
-    border: 1.5px solid hsl(287, 76%, 51%);
+    border: 1.5px solid #0072ff;
     transform: scale(1.1);
 }
 /*========mobile resposive styling==========*/

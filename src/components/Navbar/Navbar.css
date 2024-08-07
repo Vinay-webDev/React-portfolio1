@@ -1,3 +1,9 @@
+/* 
+text === 135deg, #00c9ff 0%, #92fe9d 100%
+button === 90deg, #00c6ff, #0072ff 
+*/
+
+
 .navbar {
     display: flex;
     align-items: center;
@@ -18,7 +24,7 @@
 }
 .nav-connect{
     padding: 10px 20px;
-    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
     border-radius: 25px;
     font-size: 1.35em;
     cursor: pointer;
@@ -37,7 +43,7 @@
 .nav-menu li:hover{
     transition: 0.4s;
     transform: scale(1.1);
-    background: linear-gradient(267deg, hsl(29, 71%, 50%), hsl(287, 76%, 51%));
+    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -86,7 +92,7 @@
         align-items: start;
         top: 0px;
         gap: 30px;
-        background-color: hsl(317, 100%, 6%);
+        background-color:  #0072ff;
         width: 350px;
         height: 100%;
         z-index: 2;
@@ -123,7 +129,7 @@
         align-items: start;
         top: 0px;
         gap: 30px;
-        background-color: hsl(0, 0%, 0%);
+        background-color: #0072ff;
         width: 220px;
         height: 100%;
         z-index: 5;
