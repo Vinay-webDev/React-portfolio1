@@ -22,6 +22,12 @@ button === 90deg, #00c6ff, #0072ff
     gap: 70px;
     cursor: pointer;
 }
+/*
+.anchor-link img{
+    margin-right: 20px;
+    width: 30px;
+}
+*/
 .nav-connect{
     padding: 10px 20px;
     background: linear-gradient(90deg, #00c6ff, #0072ff);

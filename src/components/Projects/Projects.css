@@ -30,6 +30,9 @@ button === 90deg, #00c6ff, #0072ff
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
+a{
+    text-decoration: none;
+}
 .projects-container img{
     box-sizing:border-box;
     width: 320px;

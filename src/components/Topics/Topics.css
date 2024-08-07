@@ -44,6 +44,9 @@ button === 90deg, #00c6ff, #0072ff
     gap: 40px;
     margin-bottom: 80px;
 }
+a{
+    text-decoration: none;
+}
 .topics-format h3{
     font-size: 2em;
 }

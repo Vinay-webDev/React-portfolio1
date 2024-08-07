@@ -15,26 +15,32 @@ const projectsList = [
                         { id:'1',
                           name:'random quote machine',
                           img: randomquote,
+                          target:'https://github.com/ninjaprogrammer2999/freeCodeCamp-project1-random-quote-machine'
                         },
                         {id:'2',
                          name:'snake',
-                         img: snake
+                         img: snake,
+                         target:'https://github.com/ninjaprogrammer2999/js-snake-game'
                         },
                         {id:'3',
                          name:'rock paper scissors',
-                         img: rock
+                         img: rock,
+                         target:'https://github.com/ninjaprogrammer2999/js-sq-new-ui-rock-paper-scissors'
                         },
                         {id:'4',
                          name:'calculator',
-                         img:calculator
+                         img:calculator,
+                         target:'https://github.com/ninjaprogrammer2999/Js_CALCULATOR'
                         },
                         {id:'5',
                          name:'pythagorian triplets',
-                         img:pythagarus
+                         img:pythagarus,
+                         target:'https://github.com/ninjaprogrammer2999/js-sq3-pythagorian-triplets'
                         },
                         {id:'6',
                          name:'expense app',
-                         img:stupidapp
+                         img:stupidapp,
+                         target:'https://github.com/ninjaprogrammer2999/js-sq4-expense-program'
                         }
 ]
 
@@ -50,7 +56,7 @@ const Projects = () => {
         </div>
         <div className="projects-container">
             {projectsList.map((project, id) => {
-                return <img key={project.id} src={project.img} alt={project.name}/> 
+                return <a href={project.target}><img key={project.id} src={project.img} alt={project.name}/></a> 
             })}
         </div>
         <div className="show-more">
