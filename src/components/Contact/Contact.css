@@ -157,8 +157,9 @@ button === 90deg, #00c6ff, #0072ff
         font-size: 20px;
     }
     .contact-right textarea{
-        width: 95%;
+        width: 100%;
         font-size: 20px;
+        resize: none;
     }
     .contact-submit{
         font-size: 25px;
@@ -179,8 +180,7 @@ button === 90deg, #00c6ff, #0072ff
         font-weight: 600;
     }
     .contact-title img{
-        width: 100px;
-        height: 50px;
+        width: 90px;
         margin-right: -20px;
     }
     .contact-section{
@@ -188,7 +188,7 @@ button === 90deg, #00c6ff, #0072ff
         gap: 60px;
     }
     .contact-left h1{
-        font-size: 45px;
+        font-size: 40px;
     }
     .contact-left p{
         font-size: 15px;

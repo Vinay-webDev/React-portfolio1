@@ -51,6 +51,7 @@ a{
     gap: 5px;
     border: 2px solid white;
     border-radius: 50px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
     padding: 5px 15px;
     font-size: 2em;
     margin-bottom: 80px;
@@ -96,10 +97,14 @@ a{
         width: 270px;
         height: 270px;
     }
+    .show-more-main{
+        margin-left: 160px;
+    }
     .show-more{
+        align-items: center;
         padding: 0px 15px;
         font-size: 30px;
-        margin: 50px auto;
+        margin: 10px auto;
         cursor: pointer;
     }
 }
@@ -112,12 +117,11 @@ a{
     }
     .projects-title h1{
         padding: 0px;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 600;
     }
     .projects-title img{
-        width: 100px;
-        height: 50px;
+        width: 80px;
         margin-right: -22px;
     }
     .projects-container{
@@ -127,6 +131,9 @@ a{
     .projects-container img{
         width: 160px;
         height: 160px;
+    }
+    .show-more-main{
+        margin-left: 105px;
     }
     .show-more{
         padding: 5px 10px;

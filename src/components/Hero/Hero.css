@@ -43,7 +43,7 @@ button === 90deg, #00c6ff, #0072ff
     font-size: 1.25em;
 }
 .hero-connect{
-    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
     padding: 10px 15px;
     border-radius: 25px;
     border: 1.5px solid white;
@@ -58,6 +58,7 @@ button === 90deg, #00c6ff, #0072ff
     padding: 10px 15px;
     border: 1.5px solid white;
     border-radius: 25px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
     transition: 0.5s;
     cursor: pointer;
 }

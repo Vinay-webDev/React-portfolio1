@@ -59,7 +59,7 @@ const Projects = () => {
                 return <a href={project.target} ><img key={project.id} src={project.img} alt={project.name}/></a> 
             })}
         </div>
-        <a href="https://github.com/ninjaprogrammer2999">
+        <a className="show-more-main" href="https://github.com/ninjaprogrammer2999">
           <div className="show-more">
               <p>Show more</p>
               <img src={arrow} alt="right-arrow"/>

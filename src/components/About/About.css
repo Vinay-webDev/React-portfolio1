@@ -167,9 +167,7 @@ button === 90deg, #00c6ff, #0072ff
         padding: 0;
     }
     .about-title img{
-        height: 40px;
-        width: 80px;
-        right: -20px;
+        width: 90px;
     }
     .about-sections{
         flex-direction: column;
@@ -178,11 +176,11 @@ button === 90deg, #00c6ff, #0072ff
         display: none;
     }
     .about-para{
-        font-size: 20px;
+        font-size: 18px;
         line-height: 20px;
         text-align: justify;
         hyphens:auto;
-        word-spacing: -0.05em;
+        word-spacing: -0.1em;
         /*letter-spacing: 0.05em;*/
     }
     .about-skill{
@@ -210,3 +208,4 @@ button === 90deg, #00c6ff, #0072ff
         font-size: 12px;
     }
 }
+/*========================================================*/

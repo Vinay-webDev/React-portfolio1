@@ -60,6 +60,14 @@ button === 90deg, #00c6ff, #0072ff
     color: white;
 }
 /*
+.anchor-link p{
+    margin-bottom:0px;
+}
+.anchor-link img{
+    margin-top:0px;
+}
+*/
+/*
 .nav-menu img{
     display: flex;
     width: 40px;
@@ -92,13 +100,17 @@ button === 90deg, #00c6ff, #0072ff
         left: 290px;
         width: 30px;
     }
+    .navbar-img {
+        width: 80px;
+        height: 70px;
+    }
     .nav-menu{
         position: fixed;
         flex-direction: column;
         align-items: start;
         top: 0px;
         gap: 30px;
-        background-color:  #0072ff;
+        background: linear-gradient(90deg, #00c6ff, #0072ff);
         width: 350px;
         height: 100%;
         z-index: 2;
@@ -149,8 +161,43 @@ button === 90deg, #00c6ff, #0072ff
         gap: 30px;
     }
 }
-
-
+/*================mobile responsive (393.33px)===============*/
+@media(max-width: 393.33px){
+    .navbar{
+        margin: 10px 15px;
+    }
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 0px;
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        left: 170px;
+        width: 50px;
+        height: 50px;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0px;
+        gap: 25px;
+        background-color: #0072ff;
+        width: 220px;
+        height: 100%;
+        z-index: 5;
+        transition: right 0.5s;
+        right: -350px;
+    }
+    .nav-menu li{
+        font-size: 25px;
+        padding-left: 35px;
+        flex-direction: row;
+        gap: 30px;
+    }
+}
 
 
 

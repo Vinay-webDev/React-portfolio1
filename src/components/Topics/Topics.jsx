@@ -7,11 +7,11 @@ import arrow from '../../assets/arrowright3.png';
 const favoriteTopics = [
                         { id:'1',
                           name:'Web Design',
-                          des:'The process of creating...',
+                          des:'The process of creating the...',
                           target:'https://en.wikipedia.org/wiki/Web_design'
                         },
                         { id:'2',
-                          name:'Web Development',
+                          name:'Web Dev',
                           des:'The process of building and...',
                           target:'https://en.wikipedia.org/wiki/Web_development'
                         },
@@ -27,12 +27,12 @@ const favoriteTopics = [
                         },
                         { id:'5',
                           name:'React.js',
-                          des:'A JavaScript library for...',
+                          des:'A JavaScript library for build...',
                           target:'https://en.wikipedia.org/wiki/React_(JavaScript_library)'
                         },
                         { id:'6',
                           name:'Back-end',
-                          des:' The server-side part...',
+                          des:' The server-side part of a web...',
                           target:'https://en.wikipedia.org/wiki/Back_end'
                         },
                         { id:'7',
@@ -42,7 +42,7 @@ const favoriteTopics = [
                         },
                         { id:'8',
                           name:'TypeScript',
-                          des:'A typed superset of...',
+                          des:'A typed superset of javascript...',
                           target:'https://en.wikipedia.org/wiki/TypeScript'
                         }
 ];
