@@ -162,8 +162,46 @@ a{
         gap: 20px;
     }
 }
-
-
+/*===================mobile responsive 393.33px=====================*/
+@media(max-width: 393.33px){
+    .topics{
+        align-items: start;
+        gap: 10px;
+        margin: 0px 20px
+    }
+    .topics-title h1{
+        margin-bottom: 30px;
+        padding: 0px;
+        font-size: 30px;
+    }
+    .topics-title img{
+        width: 70px;
+    }
+    .topics-format{
+        gap: 5px;
+        padding: 15px;
+        width: 121px;
+    }
+    .topics-format h2{
+        font-size: 20px;
+    }
+    .topics-format h3{
+        font-size: 25px;
+    }
+    .topics-format p{
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 400px;
+    }
+    .read-more img{
+        margin-top: 2px;
+        width: 18px;
+    }
+    .topics-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
 
 
 
