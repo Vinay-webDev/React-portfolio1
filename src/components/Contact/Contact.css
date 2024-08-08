@@ -220,3 +220,56 @@ button === 90deg, #00c6ff, #0072ff
         padding: 8px 18px;
     }
 }
+/*==============mobile responsive 393.33px===============*/
+@media(max-width: 393.33px){
+    .contact{
+        gap: 50px;
+        margin: 60px 30px;
+        align-items: start;
+        margin-bottom: 0px;
+    }
+    .contact-title h1{
+        padding: 0px;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .contact-title img{
+        width: 75px;
+    }
+    .contact-section{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contact-left h1{
+        font-size: 32px;
+    }
+    .contact-left p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contact-detail{
+        gap: 15px;
+    }
+    .contact-detail img{
+        width: 25px;
+    }
+    .contact-right{
+        gap: 10px;
+    }
+    .contact-right label{
+        font-size: 15px;
+    }
+    .contact-right input{
+        width: 85%;
+        font-size: 15px;
+    }
+    .contact-right textarea{
+        width: 90%;
+        font-size: 15px;
+        resize: none;
+    }
+    .contact-submit{
+        font-size: 16px;
+        padding: 8px 18px;
+    }
+}
