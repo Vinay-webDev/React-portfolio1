@@ -126,7 +126,50 @@ button === 90deg, #00c6ff, #0072ff
         font-size: 10px;
     }
 }
-
+/*===========mobile responsive 393.33px=================*/
+@media(max-width: 393.33px){
+    .footer{
+        margin: 0px 30px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-top-left img{
+        width: 60px;
+        height: 40;
+    }
+    .footer-top-left p{
+        font-size: 15px;
+    }
+    .footer-mail-input img{
+        width: 20px;
+        height: 20px;
+    }
+    .footer-mail-input input{
+        font-size: 10px;
+        width: 100px;
+        height: 20px;
+        overflow:scroll;
+    }
+    .footer-subscribe{
+        font-size: 11px;
+        padding: 10px 15px;
+        width: 50px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer-bottom-right{
+        font-size: 13px;
+        gap: 28px;
+        margin-bottom: 15px;
+    }
+    .footer-bottom-left{
+        font-size: 8px;
+    }
+}
 
 
 
