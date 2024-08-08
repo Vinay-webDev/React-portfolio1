@@ -134,22 +134,25 @@ button === 90deg, #00c6ff, #0072ff
 }
 /*=================mobile responsive 393.33px=====================*/
 @media(max-width: 393.33px){
+    .hero{
+        margin: 0px 30px;
+    }
     .hero img{
         margin-top: 30px;
         width: 180px;
         height: 180px;
     }
     .hero h1{
-        margin-top: 15px;
-        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 0px;
         font-size: 25px;
         line-height: 30px;
     }
     .hero p{
-        width: 55%;
+        min-width: 300px;
         font-size: 15px;
         line-height: 20px;
-        margin: 10px 0px;
+        margin: 0px;
     }
     .hero-actions{
         gap: 16px;

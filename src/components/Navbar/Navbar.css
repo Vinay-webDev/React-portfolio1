@@ -164,7 +164,7 @@ button === 90deg, #00c6ff, #0072ff
 /*================mobile responsive (393.33px)===============*/
 @media(max-width: 393.33px){
     .navbar{
-        margin: 10px 15px;
+        margin: 0px 30px;
     }
     .nav-mob-open{
         display: block;

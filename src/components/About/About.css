@@ -208,4 +208,59 @@ button === 90deg, #00c6ff, #0072ff
         font-size: 12px;
     }
 }
-/*========================================================*/
+/*====================mobile responsive 393.33px====================================*/
+@media(max-width: 393.33px){
+    .about{
+        gap: 60px;
+        margin: 0px 30px;
+        align-items: start;
+    }
+    .about-title h1{
+        margin: 0;
+        font-size: 30px;
+        padding: 0;
+    }
+    .about-title img{
+        width: 70px;
+    }
+    .about-sections{
+        flex-direction: column;
+    }
+    .about-left{
+        display: none;
+    }
+    .about-para{
+        margin: 0px;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: justify;
+        hyphens:auto;
+        word-spacing: -0.1em;
+        letter-spacing: 0.01em;
+        /*letter-spacing: 0.05em;*/
+    }
+    .about-skill{
+        gap: 0px;
+        align-items: center;
+    }
+    .about-skill p{
+        font-size: 15px;
+    }
+    .about-skill hr{
+        height: 7px;
+    }
+    .about-achivements{
+        justify-content: space-between;
+    }
+    .about-achivement{
+        gap: 0px;
+    }
+    .about-achivement h1{
+        font-size: 25px;
+        font-weight: 500px;
+    }
+    .about-achivement p{
+        text-align: center;
+        font-size: 10px;
+    }
+}
