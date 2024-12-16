@@ -46,10 +46,10 @@ const Contact = () => {
                 <p>I'm currently available to take on new projects, so feel free to contact me</p>
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img src={mail} alt="mail"/><p>chad.dev.user@gmail.com</p>
+                        <img src={mail} alt="mail"/><p>vinayhc.webdev@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={phone} alt="mail"/><p>+91 77XXXXXXXX</p>
+                        <img src={phone} alt="mail"/><p>+91 8088589996</p>
                     </div>
                     <div className="contact-detail">
                         <img src={location} alt="mail"/><p>Bangalore, India</p>

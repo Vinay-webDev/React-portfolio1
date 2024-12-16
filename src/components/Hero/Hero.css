@@ -29,7 +29,9 @@ button === 90deg, #00c6ff, #0072ff
     white-space: nowrap; /* Prevent wrapping */
     overflow: hidden; /* Prevent text overflow */
 }
-
+#hello {
+    color: hsl(0, 2%, 69%);
+}
 #name {
 color: white;
 }
@@ -41,7 +43,7 @@ color: white;
     gap: 5px; /* Slight gap between "I'm Vinay" and animation */
 }
 .hero h1 span {
-    background: rgb(177, 174, 174);
+    background: hsl(0, 2%, 69%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

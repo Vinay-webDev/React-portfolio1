@@ -2,7 +2,9 @@
 text === 135deg, #00c9ff 0%, #92fe9d 100%
 button === 90deg, #00c6ff, #0072ff 
 */
-
+/*last used color
+👉background: linear-gradient(90deg, #00c6ff, #0072ff);
+*/
 
 .navbar {
     display: flex;
@@ -30,7 +32,7 @@ button === 90deg, #00c6ff, #0072ff
 */
 .nav-connect{
     padding: 10px 20px;
-    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    background-color: hsl(0, 2%, 69%);
     border-radius: 25px;
     font-size: 1.35em;
     cursor: pointer;
