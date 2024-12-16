@@ -8,6 +8,29 @@ button === 90deg, #00c6ff, #0072ff
 */
 /*last used color
 👉background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);*/
+/*
+@keyframes wave {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(15deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-15deg);
+    }
+}
+
+#emoji-wave {
+    display: inline-block;
+    font-size: 4rem;
+    animation: wave 1.5s ease-in-out infinite;
+    transform-origin: bottom;
+}
+*/
 .hero {
     display: flex;
     align-items: center;
@@ -32,29 +55,6 @@ button === 90deg, #00c6ff, #0072ff
 #hello {
     color: hsl(0, 2%, 69%);
 }
-
-@keyframes wave {
-    0%, 100% {
-      transform: rotate(0deg);
-    }
-    25% {
-      transform: rotate(15deg);
-    }
-    50% {
-      transform: rotate(0deg);
-    }
-    75% {
-      transform: rotate(-15deg);
-    }
-}
-
-#emoji-wave {
-    display: inline-block;
-    font-size: 4rem;
-    animation: wave 1.5s ease-in-out infinite;
-    transform-origin: bottom;
-}
-
 #name {
     color: white;
 }

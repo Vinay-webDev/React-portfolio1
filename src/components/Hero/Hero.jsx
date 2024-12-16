@@ -11,8 +11,6 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={pfp} alt="profile-picture" />
       <h1 id="name"> 
-        <p id="hello">Hello</p>
-        <span id="emoji-wave">👋 </span> 
             I'm Vinay H C
       </h1>
       <h1 id="hero-text">
