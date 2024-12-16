@@ -33,8 +33,9 @@ button === 90deg, #00c6ff, #0072ff
     gap: 70px;
 }
 .about-sections img{
-    width: 300px;
-    height: 400px;
+    margin-left: 0;
+    width: 330px;
+    height: 380px;
     border-radius: 10px;
 }
 .about-right{

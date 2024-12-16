@@ -6,7 +6,8 @@
 text === 135deg, #00c9ff 0%, #92fe9d 100%
 button === 90deg, #00c6ff, #0072ff
 */
-
+/*last used color
+👉background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);*/
 .hero {
     display: flex;
     align-items: center;
@@ -21,11 +22,26 @@ button === 90deg, #00c6ff, #0072ff
 }
 .hero h1 {
     text-align: center;
-    width: 70%;
-    font-size: 2.5em;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Prevent text overflow */
+}
+
+#name {
+color: white;
+}
+#hero-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; /* Slight gap between "I'm Vinay" and animation */
 }
 .hero h1 span {
-    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
+    background: rgb(177, 174, 174);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
