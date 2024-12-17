@@ -29,28 +29,16 @@ function Main() {
             <>
               <Hero />
               <About />
-              <Topics />
               <Projects />
+              <Topics />
               <Contact />
             </>
           }
         />
       </Routes>
-      <Footer/>
+      {location.pathname !== '/resume' && <Footer />}
     </div>
   );
 }
 
 export default App;
-
-
-
-/*
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Topics/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-*/

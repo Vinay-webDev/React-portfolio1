@@ -11,23 +11,6 @@ const ResumePage = () => {
         height="100%"
         style={{ border: 'none' }}
       />
-      <a
-        href={myResume}
-        download="Vinay_HC_Resume.pdf"
-        style={{
-          position: 'absolute',
-          top: '20px',
-          right: '20px',
-          padding: '10px 20px',
-          backgroundColor: '#007bff',
-          color: '#fff',
-          borderRadius: '5px',
-          textDecoration: 'none',
-          fontWeight: 'bold',
-        }}
-      >
-        Download Resume
-      </a>
     </div>
   );
 };

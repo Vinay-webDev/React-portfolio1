@@ -9,9 +9,9 @@ const SimpleTypewriterText = ({ words }) => {
         loop={true}
         cursor
         cursorStyle="|"
-        typeSpeed={70}
-        deleteSpeed={50}
-        delaySpeed={1000}
+        typeSpeed={100}
+        deleteSpeed={70}
+        delaySpeed={2000}
       />
     </span>
   );

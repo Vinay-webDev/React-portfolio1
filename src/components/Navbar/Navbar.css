@@ -32,7 +32,7 @@ button === 90deg, #00c6ff, #0072ff
 */
 .nav-connect{
     padding: 10px 20px;
-    background-color: hsl(0, 2%, 69%);
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
     border-radius: 25px;
     font-size: 1.35em;
     cursor: pointer;

@@ -17,12 +17,12 @@ button === 90deg, #00c6ff, #0072ff
     text-align: center;
 }
 .about-title h1{
-    padding: 0px 30px;
-    font-size: 5em;
+    padding: 0px 10px;
+    font-size: 3.5em;
     font-weight: 600;
 }
 .about-title img{
-    width: 170px;
+    width: 120px;
     position:absolute;
     right: 0;
     top: 0;
@@ -30,12 +30,13 @@ button === 90deg, #00c6ff, #0072ff
 }
 .about-sections{
     display: flex;
-    gap: 70px;
+    gap: 30px;
 }
 .about-sections img{
+    margin-top: 25px;
     margin-left: 0;
-    width: 330px;
-    height: 380px;
+    width: 200px;
+    height: 250px;
     border-radius: 10px;
 }
 .about-right{
@@ -79,6 +80,58 @@ button === 90deg, #00c6ff, #0072ff
 .about-skill:hover{
     transform: scale(1.15);
 }
+/*h1 skills*/
+#h1skills {
+    font-size: 2.5em;
+}
+/*new code achivements but its skills actually remember*/
+.skills-wrapper {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  /* Individual section styling */
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    flex: 1; /* Allow sections to take equal space */
+    max-width: 45%; /* Prevent sections from being too wide */
+  }
+  
+  .skills-section p {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  /* Grid for logos */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 3 items per row */
+    gap: 20px; /* Space between images */
+    justify-items: center; /* Center images */
+  }
+  
+  /* Logo images */
+  .skills-grid img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .skills-grid img:hover {
+    transform: scale(1.2);
+  }
+  
+/*achivements but its skills actually remember*/
+/*
 .about-achivements{
     display: flex;
     width: 100%;
@@ -91,6 +144,18 @@ button === 90deg, #00c6ff, #0072ff
     align-items: center;
     gap: 10px;
     transition: 0.5s;
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+.about-grid img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
 }
 .about-achivement h1{
     font-size: 3.5em;
@@ -105,7 +170,7 @@ button === 90deg, #00c6ff, #0072ff
 .about-achivement:hover{
     transition: 0.5s;
     transform: scale(1.15);
-}
+}*/
 /*===============mobile responsive styling=============*/
 @media(max-width: 768px){
     .about{
