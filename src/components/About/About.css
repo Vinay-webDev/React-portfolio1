@@ -3,7 +3,47 @@ text === 135deg, #00c9ff 0%, #92fe9d 100%
 button === 90deg, #00c6ff, #0072ff 
 */
 
-
+/*achivements but its skills actually remember old code👇*/
+/*
+.about-achivements{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.about-achivement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+.about-grid img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+.about-achivement h1{
+    font-size: 3.5em;
+    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-achivement p{
+    font-size: 1.15em;
+}
+.about-achivement:hover{
+    transition: 0.5s;
+    transform: scale(1.15);
+}*/
 .about{
     display: flex;
     flex-direction: column;
@@ -94,8 +134,8 @@ button === 90deg, #00c6ff, #0072ff
     margin-bottom: 50px;
   }
   
-  /* Individual section styling */
-  .skills-section {
+/* Individual section styling */
+.skills-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,74 +143,32 @@ button === 90deg, #00c6ff, #0072ff
     gap: 10px;
     flex: 1; /* Allow sections to take equal space */
     max-width: 45%; /* Prevent sections from being too wide */
-  }
+}
   
-  .skills-section p {
+.skills-section p {
     font-size: 1.5em;
     font-weight: bold;
-  }
+}
   
-  /* Grid for logos */
-  .skills-grid {
+/* Grid for logos */
+.skills-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* 3 items per row */
-    gap: 20px; /* Space between images */
-    justify-items: center; /* Center images */
-  }
-  
-  /* Logo images */
-  .skills-grid img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-    transition: transform 0.3s ease;
-  }
-  
-  .skills-grid img:hover {
-    transform: scale(1.2);
-  }
-  
-/*achivements but its skills actually remember*/
-/*
-.about-achivements{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: 80px;
-}
-.about-achivement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    transition: 0.5s;
-}
-.about-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
     gap: 20px;
     justify-items: center;
 }
-.about-grid img {
-    width: 60px;
-    height: 60px;
+
+.skills-grid img {
+    width: 80px;
+    height: 80px;
     object-fit: contain;
     transition: transform 0.3s ease;
 }
-.about-achivement h1{
-    font-size: 3.5em;
-    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  
+.skills-grid img:hover {
+    transform: scale(1.2);
 }
-.about-achivement p{
-    font-size: 1.15em;
-}
-.about-achivement:hover{
-    transition: 0.5s;
-    transform: scale(1.15);
-}*/
+
 /*===============mobile responsive styling=============*/
 @media(max-width: 768px){
     .about{
