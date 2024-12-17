@@ -88,7 +88,7 @@ button === 90deg, #00c6ff, #0072ff
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: 500;
 }
 .about-skills{
@@ -141,13 +141,14 @@ button === 90deg, #00c6ff, #0072ff
     align-items: center;
     text-align: center;
     gap: 10px;
-    flex: 1; /* Allow sections to take equal space */
-    max-width: 45%; /* Prevent sections from being too wide */
+    flex: 1; 
+    max-width: 45%; 
 }
   
 .skills-section p {
     font-size: 1.5em;
     font-weight: bold;
+    color: hsl(0, 2%, 69%);
 }
   
 /* Grid for logos */
