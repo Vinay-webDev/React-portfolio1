@@ -1,5 +1,5 @@
 import React from 'react';
-import pfp from '../../assets/pfp/pfptemp.png';
+import pfp from '../../assets/pfp/avatar3.png';
 import './Hero.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import SimpleTypewriterText from '../TextEffects/SimpleTypewriterText.jsx';
@@ -11,7 +11,7 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={pfp} alt="profile-picture" />
       <h1 id="name"> 
-            I'm Vinay H C
+          Hello👋, I'm Vinay
       </h1>
       <h1 id="hero-text">
         <SimpleTypewriterText
@@ -35,3 +35,10 @@ const Hero = () => {
 };
 
 export default Hero;
+
+/*
+"https://doodleipsum.com/700/avatar-3?i=2ea54aaed1aee8357bc0c85670ea888b"
+"https://doodleipsum.com/600/avatar-3?i=60e26c9e92fa5ebd256d816b35882434"
+"https://doodleipsum.com/700/avatar-2?i=e3dee7468e53e0ca1dcee28d5678fceb"
+"https://doodleipsum.com/600/avatar-3?i=258047980742b4938d78891d296875ef"
+*/

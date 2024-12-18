@@ -38,6 +38,18 @@ const projectsList = [
   },
 ];
 
+const certifications = [
+  {
+    id: 1,
+    name: "javascript",
+    description: "An app that generates random quotes.",
+    tech: ["React", "Nodejs", "Expressjs", "Zustand", "MongoDB", "TailwindCSS"],
+    img: randomquote,
+    github: "https://github.com/Vinay-webDev/UrbanShop.git",
+    live: "https://urban-shop-0b7p.onrender.com"
+  }
+]
+
 const Projects = () => {
   return (
     <div id="projects" className="projects">
@@ -69,6 +81,8 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      {/*////////////////////////////////////////////////////////////// */}
+      
       </div>
       <a className="show-more-main" href="https://github.com/Vinay-webDev">
         <div className="show-more">

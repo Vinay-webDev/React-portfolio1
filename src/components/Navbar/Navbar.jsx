@@ -1,11 +1,10 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import React, { useState, useRef } from 'react';
-import logo from '../../assets/logo/logo.png';
+import logo from '../../assets/logo/logonew.png';
 import './Navbar.css';
 import underline from '../../assets/new/underlinenew3.png';
 import menubar from '../../assets/menu/bar1.png';
 import close from '../../assets/menu/close.png';
-
 
 const Navbar = () => {
 
@@ -33,10 +32,8 @@ const Navbar = () => {
             <img onClick={closeMenu} src={close} alt="close" className="nav-mob-close"/>
             <li><AnchorLink className="anchor-link" href="#home"  ><p onClick={() => handleClick("home")}>Home</p>{menu==="home"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
             <li><AnchorLink className="anchor-link" href="#about" offset={50} ><p onClick={() => handleClick("about")}>About</p>{menu==="about"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
-            <li><AnchorLink className="anchor-link" href="#topics" offset={50} ><p onClick={() => handleClick("topics")}>Topics</p>{menu==="topics"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
             {/*<li>Portfolio</li>*/}
             <li><AnchorLink className="anchor-link" href="#projects" offset={50} ><p onClick={() => handleClick("projects")}>Projects</p>{menu==="projects"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
-            <li><AnchorLink className="anchor-link" href="#contact" offset={50} ><p onClick={() => handleClick("contact")}>Contact</p>{menu==="contact"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
         </ul>
         <div className="nav-connect"><AnchorLink className="anchor-link" href="#contact" offset={50}>Connect</AnchorLink></div>
     </div>
@@ -46,4 +43,9 @@ const Navbar = () => {
 export default Navbar;
 
 
-
+/*
+<li><AnchorLink className="anchor-link" href="#topics" offset={50} ><p onClick={() => handleClick("topics")}>Topics</p>{menu==="topics"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
+*/
+/*
+<li><AnchorLink className="anchor-link" href="#contact" offset={50} ><p onClick={() => handleClick("contact")}>Contact</p>{menu==="contact"?<img src={underline} alt="underline"/>:<></>}</AnchorLink></li>
+*/

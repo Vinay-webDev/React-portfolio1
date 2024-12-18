@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css';
 import theme from '../../assets/new/textund.png';
-import pfp from '../../assets/pfp/pfptemp2.png';
+import pfp from '../../assets/pfp/aboutpic.png';
 
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>I'm Vinay h c passionate web developer and I'm an undergraduate, my expertise lies in MERN stack. I enjoy building full-stack applications that deliver seamless user experiences.</p>
+            <p>Hi👋, I'm Vinay H C, an undergraduate student and a web developer passionate about working with the MERN stack. I enjoy building full-stack applications and exploring new ideas in web development every day.</p>
           </div>
           <div className="about-skills">
             <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"40%"}} /></div>
