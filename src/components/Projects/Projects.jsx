@@ -13,7 +13,7 @@ const projectsList = [
     id: 1,
     name: "Urban Shop🛒🛍️",
     description: "An app that generates random quotes.",
-    tech: ["React", "Nodejs", "Expressjs", "Zustand", "MongoDB", "Redis", "Stripe", "Cloudinary","TailwindCSS"],
+    tech: ["React", "Nodejs", "Expressjs", "Zustand", "MongoDB", "TailwindCSS"],
     img: randomquote,
     github: "https://github.com/Vinay-webDev/UrbanShop.git",
     live: "https://urban-shop-0b7p.onrender.com"

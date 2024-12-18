@@ -154,7 +154,7 @@ a{
 }
 .button-container {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 .more {
     display: block;
@@ -168,10 +168,11 @@ a{
     max-width: 60px;
     font-weight: bold;
     transition: 0.3s;
+    transition: transform 0.3s;
 }
   
 .more:hover {
-    background: #005fcc;
+    transform: scale(1.09);
 }
   
 /* Show more button */
