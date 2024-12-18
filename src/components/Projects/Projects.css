@@ -86,11 +86,17 @@ a{
 }
   
 .projects-title h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     text-align: center;
     margin-bottom: 10px;
 }
-  
+/*
+.projects-title img{
+    width: 150px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}*/
 /* Projects grid container */
   .projects-container {
     display: flex;
@@ -115,11 +121,13 @@ a{
 }
   
 .project-img {
-    width: 40%;
+    width: 60%;
     height: 300px;
     object-fit: cover;
 }
-
+.certifications-title h1 {
+    font-size: 3.5em;
+}
 .certification-img {
     width: 100%;
     height: 300px;
@@ -208,6 +216,7 @@ a{
     align-items: center;
     gap: 5px;
     border: 2px solid white;
+    margin-bottom: 80px;
     border-radius: 50px;
     background: linear-gradient(90deg, #00c6ff, #0072ff);
     padding: 5px 15px;

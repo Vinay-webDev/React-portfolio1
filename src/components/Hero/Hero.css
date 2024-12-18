@@ -38,7 +38,7 @@ button === 90deg, #00c6ff, #0072ff
     gap: 20px;
 }
 .hero img {
-    margin-top: 35px;
+    margin-top: 50px;
     width: 200px;
     height: 200px;
     border-radius: 125px;
@@ -80,6 +80,7 @@ button === 90deg, #00c6ff, #0072ff
 .hero-actions {
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
     gap: 35px;
     font-size: 1.25em;
 }

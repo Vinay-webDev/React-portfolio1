@@ -1,29 +1,27 @@
 import './Projects.css';
 import randomquote from '../../assets/projects/randomquote.png';
-import snake from '../../assets/projects/snake.png';
+import urbanShop from '../../assets/projects/urbanshop.png';
+import productStore from '../../assets/projects/productstore.png';
+import portfolio from '../../assets/projects/portfolio.png';
 import rock from '../../assets/projects/rock2.png';
-import calculator from '../../assets/projects/calc2.png';
-import pythagarus from '../../assets/projects/pytha2.png';
-import stupidapp from '../../assets/projects/stupidapp1.png';
-import theme from '../../assets/new/textund.png';
 import arrow from '../../assets/arrowright3.png';
 
 const projectsList = [
   {
     id: 1,
     name: "Urban Shop🛒🛍️",
-    description: "An app that generates random quotes.",
+    description: "A E-commerce website with urban style brands",
     tech: ["React", "Nodejs", "Expressjs", "Zustand", "MongoDB", "TailwindCSS"],
-    img: randomquote,
+    img: urbanShop,
     github: "https://github.com/Vinay-webDev/UrbanShop.git",
     live: "https://urban-shop-0b7p.onrender.com"
   },
   {
     id: 2,
     name: "Product Store📦",
-    description: "A simple snake game built with JavaScript.",
+    description: "A simple MERN stack with CRUD functionalities",
     tech: ["React", "Nodejs", "Expressjs", "MongoDB", "Zustand", "ChakraUI"],
-    img: snake,
+    img: productStore,
     github: "https://github.com/Vinay-webDev/ProductStore-MERN.git",
     live:"https://product-store-qxxv.onrender.com"
   },
@@ -32,7 +30,7 @@ const projectsList = [
     name: "Personal Portfolio👤🏠",
     description: "Play Rock Paper Scissors against AI.",
     tech: ["React", "JavaScript", "HTML5", "CSS3"],
-    img: rock,
+    img: portfolio,
     github: "https://github.com/Vinay-webDev/js-sq-new-ui-rock-paper-scissors.git",
     live: ""
   },

@@ -9,7 +9,7 @@ const About = () => {
     <div id="about" className="about">
       <div className="about-title">
         <h1>About</h1>
-        <img src={theme} alt="theme"/>
+        {/*<img src={theme} alt="theme"/>*/}
       </div>
       <div className="about-sections">
         <div className="about-left">
@@ -29,6 +29,7 @@ const About = () => {
         </div>
         
       </div>
+        <h1 id="skillset-title">Skillset</h1>
           <div className="skills-wrapper">
             <div className="skills-section">
               <p>Languages and Frameworks</p>

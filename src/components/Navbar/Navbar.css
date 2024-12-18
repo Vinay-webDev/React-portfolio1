@@ -13,8 +13,8 @@ button === 90deg, #00c6ff, #0072ff
     margin: 7px 100px;
 }
 .navbar-img {
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 50px;
 }
 .nav-menu{
     display: flex;
