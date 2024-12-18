@@ -119,7 +119,13 @@ a{
     height: 300px;
     object-fit: cover;
 }
-  
+
+.certification-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
 .project-info {
     display: flex;
     flex-direction: column;
@@ -156,6 +162,7 @@ a{
     display: flex;
     gap: 15px;
 }
+
 .more {
     display: block;
     text-align: center;
@@ -174,7 +181,22 @@ a{
 .more:hover {
     transform: scale(1.09);
 }
-  
+.more-new {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    transition: transform 0.3s;
+}
+.more-new:hover {
+    transform: scale(1.02);
+}
 /* Show more button */
 .show-more-main {
     text-decoration: none;

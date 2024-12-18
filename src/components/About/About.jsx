@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>Hi👋, I'm Vinay H C, an undergraduate student and a web developer passionate about working with the MERN stack. I enjoy building full-stack applications and exploring new ideas in web development every day.</p>
+            <p>Hey🙋‍♂️, I'm Vinay H C, an undergraduate student and a web developer passionate about working with the MERN stack. I enjoy building full-stack applications and exploring new ideas in web development.</p>
           </div>
           <div className="about-skills">
             <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"40%"}} /></div>

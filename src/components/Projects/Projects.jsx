@@ -36,19 +36,89 @@ const projectsList = [
     github: "https://github.com/Vinay-webDev/js-sq-new-ui-rock-paper-scissors.git",
     live: ""
   },
+  
 ];
 
 const certifications = [
   {
     id: 1,
     name: "javascript",
-    description: "An app that generates random quotes.",
-    tech: ["React", "Nodejs", "Expressjs", "Zustand", "MongoDB", "TailwindCSS"],
+    description: "",
+    projects: [
+      {
+        id: 1,
+        name:"Palindrome checker",
+        github: "",
+        live: ""
+      },
+      {
+        id: 2,
+        name:"Validate number",
+        github: "",
+        live: ""
+      },
+      {
+        id: 3,
+        name:"Roman numeral converter",
+        github: "",
+        live: ""
+      },
+      {
+        id: 4,
+        name:"Cash register app",
+        github: "",
+        live: ""
+      },
+      {
+        id: 5,
+        name:"Pokémon search app",
+        github: "",
+        live: ""
+      },
+    ],
+    img: rock,
+    github: "https://github.com/Vinay-webDev/js-sq-new-ui-rock-paper-scissors.git",
+    live: ""
+  }
+]
+
+const miniProjects = [
+  {
+    id: 1,
+    name: "mini projects",
+    description: "mini projects",
+    links: [
+      {
+        id: 1,
+        name:"Random quote machine",
+        github: "",
+        live: ""
+      },
+      {
+        id: 2,
+        name:"Snake game",
+        github: "",
+        live: ""
+      },
+      {
+        id: 3,
+        name:"Rock paper scissors",
+        github: "",
+        live: ""
+      },
+      
+      {
+        id: 9,
+        name:"Basic calculator",
+        github: "",
+        live: ""
+      },
+    ],
     img: randomquote,
     github: "https://github.com/Vinay-webDev/UrbanShop.git",
     live: "https://urban-shop-0b7p.onrender.com"
   }
-]
+];
 
 const Projects = () => {
   return (
@@ -56,6 +126,7 @@ const Projects = () => {
       <div className="projects-title">
         <h1>Projects</h1>
       </div>
+      {/* projectsList */}
       <div className="projects-container">
         {projectsList.map((project) => (
           <div key={project.id} className="project-card">
@@ -81,8 +152,28 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      {/*///////////////mini projects//////////////////////// */}
+        <div className="projects-container">
+          {miniProjects.map((project) => (
+            <div key={project.id} className="project-card">
+              <img src={project.img} alt={project.name} className="project-img" />
+              <div className="project-info">
+                <h2>{project.name}</h2>
+                <p>{project.description}</p>
+                <div className="project-tech">
+                  {project.links.map((item) => (
+                    <div className='button-container'>
+                      <a href={item.live} className="more-new">
+                        {item.name}
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       {/*////////////////////////////////////////////////////////////// */}
-      
       </div>
       <a className="show-more-main" href="https://github.com/Vinay-webDev">
         <div className="show-more">
@@ -90,6 +181,30 @@ const Projects = () => {
           <img src={arrow} alt="right-arrow" />
         </div>
       </a>
+      {/*////////////////certifications///////////////////// */}
+      <div className="certifications-title">
+        <h1>Certifications</h1>
+      </div>
+        <div className="projects-container">
+          {certifications.map((item) => (
+            <div key={item.id} className="project-card">
+              <img src={item.img} alt={item.name} className="certification-img" />
+              <div className="project-info">
+                <h2>{item.name}</h2>
+                <p>{item.description}</p>
+                <div className="project-tech">
+                  {item.projects.map((project) => (
+                    <div className='button-container'>
+                      <a href={project.live} className="more-new">
+                        {project.name}
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
     </div>
   );
 }
@@ -152,4 +267,5 @@ const projectsList = [
                          img:stupidapp,
                          target:'https://github.com/ninjaprogrammer2999/js-sq4-expense-program'
                         }
-]*/
+]
+*/

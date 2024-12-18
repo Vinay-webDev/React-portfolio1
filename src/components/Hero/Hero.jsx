@@ -11,7 +11,7 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={pfp} alt="profile-picture" />
       <h1 id="name"> 
-          Hello👋, I'm Vinay
+          Hi👋, I'm Vinay
       </h1>
       <h1 id="hero-text">
         <SimpleTypewriterText
