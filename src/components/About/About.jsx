@@ -33,30 +33,32 @@ const About = () => {
             <div className="skills-section">
               <p>Languages and Frameworks</p>
               <div className="skills-grid">
-                <img src="/logos/HTML5.png" alt="html-5" />
-                <img src="/logos/CSS3.png" alt="css-3" />
-                <img src="/logos/js.png" alt="js" />
-                <img src="/logos/python.png" alt="python" />
-                <img src="/logos/reactjs.png" alt="reactjs" />
-                <img src="/logos/nodejs.png" alt="nodejs" />
-                <img src="/logos/expressjswhite.png" alt="expressjs" />
-                <img src="/logos/tailwindcss.png" alt="tailwindcss" />
+                <img src="/icons/HTML5.png" alt="html-5" />
+                <img src="/icons/CSS3.png" alt="css-3" />
+                <img src="/icons/js.png" alt="js" />
+                <img src="/icons/python.png" alt="python" />
+                <img src="/icons/reactjs.png" alt="reactjs" />
+                <img src="/icons/nodejs.png" alt="nodejs" />
+                <img src="/icons/expressjswhite.png" alt="expressjs" />
+                <img src="/icons/tailwindcss.png" alt="tailwindcss" />
                 <img src="https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg" alt="zustand" />
-                <img src="/logos/vite.js.png" alt="tailwindcss" />
+                <img src="/icons/vite.js.png" alt="tailwindcss" />
               </div>
             </div>
 
             <div className="skills-section">
               <p>Database and Tools</p>
               <div className="skills-grid">
-                <img src="/logos/mongodbnew.png" alt="db" />
-                <img src="/logos/redis.png" alt="db" />
-                <img src="/logos/firebase.png" alt="db" />
-                <img src="/logos/git.png" alt="db" />
-                <img src="/logos/githubwhite.png" alt="db" />
-                <img src="/logos/vercel-white.svg" alt="db" />
-                <img src="/logos/Postman.png" alt="db" />
-                <img src="/logos/vscode.png" alt="db" />
+                <img src="/icons/mongodbnew.png" alt="db" />
+                <img src="/icons/redis.png" alt="db" />
+                <img src="/icons/firebase.png" alt="db" />
+                <img src="/icons/git.png" alt="db" />
+                <img src="/icons/githubwhite.png" alt="db" />
+                <img src="/icons/vercel-white.svg" alt="db" />
+                <img src="/icons/Postman.png" alt="db" />
+                <img src="/icons/vscode.png" alt="db" />
+                <img src="/icons/rendernew.jpg" alt="db" />
+                <img src="/icons/stripe.png" alt="db" />
               </div>
             </div>
           </div>

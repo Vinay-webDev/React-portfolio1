@@ -2,7 +2,7 @@
 text === 135deg, #00c9ff 0%, #92fe9d 100%
 button === 90deg, #00c6ff, #0072ff 
 */
-
+/*
 .projects{
     display: flex;
     flex-direction: column;
@@ -66,13 +66,138 @@ a{
 .show-more p{
     text-decoration: none;
     color: white;
-}
+}*/
 /*
 .show-more img{
     width: 35px;
     height: 35px;
 }
 */
+/*redesign👇*/
+/* General container styles */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 20px auto;
+    max-width: 950px;
+    padding: 10px;
+}
+  
+.projects-title h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+/* Projects grid container */
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    object-fit: cover;
+}
+  
+/* Project card styles */
+.project-card {
+    display: flex;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+  
+.project-card:hover {
+    transform: scale(1.02);
+}
+  
+.project-img {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+}
+  
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+  
+.project-info h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+  
+.project-info p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+  
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 10px 0;
+}
+  
+.tech-tag {
+    color: black;
+    background-color: hsl(0, 2%, 69%);
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+.more {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 60px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.more:hover {
+    background: #005fcc;
+}
+  
+/* Show more button */
+.show-more-main {
+    text-decoration: none;
+    margin-top: 20px;
+}
+  
+.show-more {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    padding: 5px 15px;
+    font-size: 1.5em;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+  
+.show-more:hover {
+    transform: scale(1.1);
+}
+  
 /*======================mobile resposive styling============*/
 @media(max-width: 768px){
     .projects{
