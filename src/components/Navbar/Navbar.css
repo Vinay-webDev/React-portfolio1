@@ -12,8 +12,8 @@ button === 90deg, #00c6ff, #0072ff
     margin: 7px 100px;
 }
 .navbar-img {
-    width: 40px;
-    height: 50px;
+    width: 30px;
+    height: 40px;
 }
 .nav-menu{
     display: flex;
@@ -23,7 +23,10 @@ button === 90deg, #00c6ff, #0072ff
     gap: 70px;
     cursor: pointer;
 }
-
+/* .nav-socials img {
+    width: 30px;
+    height: 30px;
+} */
 .nav-connect{
     padding: 10px 20px;
     background: linear-gradient(90deg, #00c6ff, #0072ff);
@@ -45,16 +48,27 @@ button === 90deg, #00c6ff, #0072ff
 .nav-menu li:hover{
     transition: 0.4s;
     transform: scale(1.1);
-    background: linear-gradient(135deg, #00c9ff 0%, #92fe9d 100%);
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.nav-socials img{
+    margin-left: 0;
+    margin-right: 30px;
+    margin-top: 9px;
+    width: 25px;
+    height: 25px;
+}
+.nav-socials img:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
+}
 .anchor-link{
     text-decoration: none;
     color: white;
 }
+
 /*==============mobile responsive styling====================*/
 .nav-mob-open{
     display: none;
