@@ -3,7 +3,6 @@ import './Topics.css';
 import theme from '../../assets/new/textund.png';
 import arrow from '../../assets/arrowright3.png';
 
-
 const favoriteTopics = [
                         { id:'1',
                           name:'Web Design',

@@ -2,8 +2,6 @@
 text === 135deg, #00c9ff 0%, #92fe9d 100%
 button === 90deg, #00c6ff, #0072ff 
 */
-
-
 .topics{
     display: flex;
     flex-direction: column;

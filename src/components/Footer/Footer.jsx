@@ -18,26 +18,3 @@ const Footer = () => {
 }
 
 export default Footer;
-
-
-
-/*
-import logo from '../../assets/new/chad.png';
-import user from '../../assets/new/personwhite.png';
-*/
-/*
-<hr />
-<div className="footer-top">
-            <div className="footer-top-left">
-                <img src={logo} alt="logo"/>
-                <p>I'm a full-stack developer from Bangalore, India</p>
-            </div>
-            <div className="footer-top-right">
-                <div className="footer-mail-input">
-                    <img src={user} alt="user-icon"/>
-                    <input type="email" placeholder="Enter your email"/>
-                </div>
-                <div className="footer-subscribe">Subscribe</div>
-            </div>
-</div>
-*/

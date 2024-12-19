@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>Hey🙋‍♂️, I'm Vinay H C, an undergraduate student and a web developer passionate about working with the MERN stack. I enjoy building full-stack applications and exploring new ideas in web development.</p>
+            <p>Hey🙋‍♂️, I'm Vinay H C, a web developer passionate about working with the MERN stack. I enjoy building full-stack applications and exploring new ideas in web development.</p>
           </div>
           <div className="about-skills">
             <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"40%"}} /></div>
@@ -68,27 +68,3 @@ const About = () => {
 }
 
 export default About
-
-/*
-<div className="about-skills">
-            <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"40%"}} /></div>
-            <div className="about-skill"><p>Javascript</p><hr style={{width:"60%"}} /></div>
-            <div className="about-skill"><p>React js</p><hr style={{width:"45%"}} /></div>
-            <div className="about-skill"><p>Node js</p><hr style={{width:"50%"}} /></div>
-            <div className="about-skill"><p>Express js</p><hr style={{width:"50%"}} /></div>
-          </div>
-*/
-
-
-/*
-<div className="about-left">
-          <img src={pfp} alt="pfp"/>
-        </div>
-*/
-
-/*
-<div className="about-achivement">
-              <h1>15+</h1>
-              <p>HAPPY CLIENTS</p>
-            </div>
-*/

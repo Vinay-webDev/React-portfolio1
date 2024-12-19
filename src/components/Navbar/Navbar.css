@@ -5,7 +5,6 @@ button === 90deg, #00c6ff, #0072ff
 /*last used color
 👉background: linear-gradient(90deg, #00c6ff, #0072ff);
 */
-
 .navbar {
     display: flex;
     align-items: center;
@@ -24,12 +23,7 @@ button === 90deg, #00c6ff, #0072ff
     gap: 70px;
     cursor: pointer;
 }
-/*
-.anchor-link img{
-    margin-right: 20px;
-    width: 30px;
-}
-*/
+
 .nav-connect{
     padding: 10px 20px;
     background: linear-gradient(90deg, #00c6ff, #0072ff);
@@ -61,21 +55,6 @@ button === 90deg, #00c6ff, #0072ff
     text-decoration: none;
     color: white;
 }
-/*
-.anchor-link p{
-    margin-bottom:0px;
-}
-.anchor-link img{
-    margin-top:0px;
-}
-*/
-/*
-.nav-menu img{
-    display: flex;
-    width: 40px;
-    height: 15px;
-}
-*/
 /*==============mobile responsive styling====================*/
 .nav-mob-open{
     display: none;

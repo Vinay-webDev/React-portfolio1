@@ -1,13 +1,7 @@
-import React from 'react'
 import './Contact.css';
-import theme from '../../assets/new/textund.png';
 import phone from '../../assets/new/callwhite.png';
 import location from '../../assets/new/locationonwhite.png';
 import mail from '../../assets/new/mailwhite.png';
-
-
-
-
 
 const Contact = () => {
 
@@ -38,7 +32,6 @@ const Contact = () => {
     <div className="contact">
         <div className="contact-title">
             <h1>Contact me</h1>
-            {/*<img src={theme} alt="theme"/>*/}
         </div>
         <div id="contact" className="contact-section">
             <div className="contact-left">
@@ -71,5 +64,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-
