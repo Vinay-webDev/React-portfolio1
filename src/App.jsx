@@ -19,9 +19,9 @@ function Main() {
 
   return (
     <div>
-      {location.pathname !== '/resume' && <Navbar />}
+      {location.pathname !== '/vinayhc.pdf' && <Navbar />}
       <Routes>
-        <Route path="/resume" element={<ResumePage />} />
+        <Route path="/vinayhc.pdf" element={<ResumePage />} />
         <Route
           path="/"
           element={
@@ -34,7 +34,7 @@ function Main() {
           }
         />
       </Routes>
-      {location.pathname !== '/resume' && <Footer />}
+      {location.pathname !== '/vinayhc.pdf' && <Footer />}
     </div>
   );
 }

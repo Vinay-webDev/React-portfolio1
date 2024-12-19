@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import SimpleTypewriterText from '../TextEffects/SimpleTypewriterText.jsx';
 
 const Hero = () => {
-  const resumeURL = '/resume';
+  const resumeURL = '/vinayhc.pdf';
 
   return (
     <div id="home" className="hero">
