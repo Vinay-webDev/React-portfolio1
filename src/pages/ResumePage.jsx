@@ -2,7 +2,7 @@ const ResumePage = () => {
   return (
     <div style={{ height: '100vh', width: '100%', position: 'relative' }}>
       <embed
-        src="/myResumeDecember.pdf"
+        src="/vinayhc.pdf"
         type="application/pdf"
         width="100%"
         height="100%"
