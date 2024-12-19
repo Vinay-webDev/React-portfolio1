@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css';
-import theme from '../../assets/new/textund.png';
 import pfp from '../../assets/pfp/aboutpic.png';
 
 

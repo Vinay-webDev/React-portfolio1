@@ -1,4 +1,3 @@
-import React from 'react';
 import pfp from '../../assets/pfp/avatar3.png';
 import './Hero.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
