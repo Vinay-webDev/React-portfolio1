@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/vinayhc.pdf", "destination": "/public/vinayhc.pdf" }
+    ]
+}
+  

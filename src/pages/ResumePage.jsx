@@ -1,8 +1,9 @@
 const ResumePage = () => {
+  const baseUrl = window.location.origin;
   return (
     <div style={{ height: '100vh', width: '100%', position: 'relative' }}>
       <embed
-        src="https://vinayhc.vercel.app/vinayhc.pdf"
+        src={`${baseUrl}/vinayhc.pdf`}
         type="application/pdf"
         width="100%"
         height="100%"
