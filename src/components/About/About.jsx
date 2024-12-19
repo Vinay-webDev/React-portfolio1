@@ -31,34 +31,30 @@ const About = () => {
         <h1 id="skillset-title">Skillset</h1>
           <div className="skills-wrapper">
             <div className="skills-section">
-              <p>Languages and Frameworks</p>
               <div className="skills-grid">
-                <img src="/icons/HTML5.png" alt="html-5" />
-                <img src="/icons/CSS3.png" alt="css-3" />
-                <img src="/icons/js.png" alt="js" />
-                <img src="/icons/python.png" alt="python" />
-                <img src="/icons/reactjs.png" alt="reactjs" />
-                <img src="/icons/nodejs.png" alt="nodejs" />
-                <img src="/icons/expressjswhite.png" alt="expressjs" />
-                <img src="/icons/tailwindcss.png" alt="tailwindcss" />
-                <img src="https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg" alt="zustand" />
-                <img src="/icons/vite.js.png" alt="tailwindcss" />
+                <img src="/icons/HTML5.png" alt="html-5" title='HTML' />
+                <img src="/icons/CSS3.png" alt="css-3" title='CSS' />
+                <img src="/icons/js.png" alt="Javascript" title='Javascript' />
+                <img src="/icons/python.png" alt="python" title='Python'/>
+                <img src="/icons/reactjs.png" alt="reactjs" title='Reactjs'/>
+                <img src="/icons/nodejs.png" alt="nodejs" title='Nodejs'/>
+                <img src="/icons/expressjswhite.png" alt="expressjs" title='Expressjs' />
+                <img src="/icons/tailwindcss.png" alt="tailwindcss" title='TailwindCSS'/>
+                <img src="https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg" alt="zustand" title='Zustand'/>
               </div>
             </div>
 
             <div className="skills-section">
-              <p>Database and Tools</p>
               <div className="skills-grid">
-                <img src="/icons/mongodbnew.png" alt="db" />
-                <img src="/icons/redis.png" alt="db" />
-                <img src="/icons/firebase.png" alt="db" />
-                <img src="/icons/git.png" alt="db" />
-                <img src="/icons/githubwhite.png" alt="db" />
-                <img src="/icons/vercel-white.svg" alt="db" />
-                <img src="/icons/Postman.png" alt="db" />
-                <img src="/icons/vscode.png" alt="db" />
-                <img src="/icons/rendernew.jpg" alt="db" />
-                <img src="/icons/stripe.png" alt="db" />
+                <img src="/icons/mongodbnew.png" alt="mongodb" title='MongoDB' />
+                <img src="/icons/redis.png" alt="redis" title='Redis'/>
+                <img src="/icons/firebase.png" alt="firebase" title='Firebase' />
+                <img src="/icons/git.png" alt="git" title='Git' />
+                <img src="/icons/githubwhite.png" alt="github" title='Github' />
+                <img src="/icons/vercel-white.svg" alt="vercel" title='Vercel' />
+                <img src="/icons/Postman.png" alt="postman" title='Postman'/>
+                <img src="/icons/vscode.png" alt="vscode" title='VScode'/>
+                <img src="/icons/rendernew.jpg" alt="render" title='Render'/>
               </div>
             </div>
           </div>

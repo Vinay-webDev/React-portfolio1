@@ -18,13 +18,6 @@ button === 90deg, #00c6ff, #0072ff
     padding: 0px 10px;
     font-size: 3.5em;
 }
-.about-title img{
-    width: 120px;
-    position:absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-}
 .about-sections{
     display: flex;
     gap: 30px;
@@ -86,7 +79,7 @@ button === 90deg, #00c6ff, #0072ff
     display: flex;
     justify-content: space-around; 
     align-items: flex-start;
-    gap: 30px;
+    gap: 100px;
     flex-wrap: wrap;
     margin-bottom: 50px;
   }
@@ -111,8 +104,8 @@ button === 90deg, #00c6ff, #0072ff
 /* Grid for logos */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 3 items per row */
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 30px;
     justify-items: center;
 }
 
