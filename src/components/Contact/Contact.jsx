@@ -49,16 +49,16 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <form onSubmit={onSubmit} className="contact-right">
-                <label htmlFor="">Your Name</label>
-                <input type="text" placeholder="Enter your name"/>
-                <label htmlFor="">Email</label>
-                <input type="text" placeholder="Enter email"/>
-                <label htmlFor="">Write message</label>
-                <textarea name="message" rows="8"  placeholder="    Write message"/>
-                <button type="submit" className="contact-submit">Submit</button>
-            </form>
         </div>
+        <form onSubmit={onSubmit} className="contact-right">
+            <label htmlFor="">Your Name</label>
+            <input type="text" placeholder="Enter your name"/>
+            <label htmlFor="">Email</label>
+            <input type="text" placeholder="Enter email"/>
+            <label htmlFor="">Write message</label>
+            <textarea name="message" rows="8"  placeholder="    Write message"/>
+            <button type="submit" className="contact-submit">Submit</button>
+        </form>
     </div>
   );
 }
